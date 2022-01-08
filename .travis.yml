@@ -4,4 +4,4 @@ services:
 script:
   - sudo apt update
   - sudo apt install git
-  - bash scripts/verify.sh
+  - bash scripts/test-verify.sh
