@@ -1,0 +1,6 @@
+dist: Xenial
+services:
+  - docker
+script:
+  - apt-get update && apt-get install -y git
+  - bash scripts/verify.sh
