@@ -2,6 +2,5 @@ dist: Xenial
 services:
   - docker
 script:
-  - sudo apt update
   - sudo apt install git
   - bash scripts/test-verify.sh
